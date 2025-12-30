@@ -1,5 +1,5 @@
 !!! The Code Will Be Available Soon !!!
-# Astronomical Numerical Analyzer (ANA)
+# Astronomical & Numerical Analyzer (ANA)
 ANA is a tool for analyzing astronomical data using numerical methods, with a focus on PERIOD analysis of Kepler and TESS stars.
 
 # Methods
