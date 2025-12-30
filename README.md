@@ -15,7 +15,37 @@ ANA is a Python-based tool for analyzing astronomical data using numerical metho
 ## Mostly Used Libraries
 Lightkurve, Numpy, Astropy, Scipy, Pandas, Ssqueezepy.
 
-## Full List of Used Packages and Versions
+----
+
+## Installation steps:
+1. Install python 3.11.9 (Enable Add to Path during installation)
+2. Create a folder anywhere you like to save the project as a virtual environment so we can easily install the dependences (libraries and packages). In this example, I'll create a folder with name "my_venvs" and another in it for the actual prject with name "ana5".
+3. Press start menu and open "CMD" on Windows
+
+- Copy next commands and Run (don't forget to insert your actual path into "{}" brackets):
+
+- This command will check where Python is installed. You need to copy the path ending with "python.exe". Make sure its in "Python311" folder for Python 3.11.x version:
+4. where python
+
+- Next you have to change the example (in the "{}" brackets) to your actual path you coppied before (keep the ' " 's):
+5. "{C:\Users\User_name\AppData\Local\Programs\Python\Python311\python.exe}" -m venv "{path to your virtual environment}\my_venvs\ana5"
+
+- Now activate the environment:
+6. "{path to your virtual environment}\my_venvs\ana5\Scripts\activate"
+
+- And install the packages:
+7.1. "{path to your virtual environment}\my_venvs\ana5\Scripts\python.exe" -m pip install "lightkurve==2.5.1" "ssqueezepy==0.6.6"
+
+- IF you're using Jupyter notebook, you may also run:
+7.2. "{path to your virtual environment}\my_venvs\ana5\Scripts\python.exe" -m pip install "ipykernel==7.1.0"
+
+8. Run the code in the editor (I used "VS Code") with interpreter path of your virtual environment or in our case "ana5". The path of the interpreter must be python.exe file placed in the virtual environment "\my_venv\ana5\Scripts\" folder. So select "\my_venv\ana5\Scripts\python.exe" as an interpreter.
+
+- Additional: You may press "ctrl + shift + p" to select interpreter path.
+
+
+-----
+### Full List of Used Packages and Versions
 aiobotocore        == 2.26.0,
 aiohappyeyeballs   == 2.6.1,
 aiohttp            == 3.13.2,
