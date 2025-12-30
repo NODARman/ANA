@@ -45,7 +45,7 @@ Lightkurve, Numpy, Astropy, Scipy, Pandas, Ssqueezepy.
 
 
 -----
-### Full List of Used Packages and Versions
+### Full List of Used Packages and Versions (Just in case ;))
 aiobotocore        == 2.26.0,
 aiohappyeyeballs   == 2.6.1,
 aiohttp            == 3.13.2,
