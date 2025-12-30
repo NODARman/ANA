@@ -19,7 +19,7 @@ Lightkurve, Numpy, Astropy, Scipy, Pandas, Ssqueezepy.
 
 ## Installation steps:
 1. Install python 3.11.9 (Enable Add to Path during installation)
-2. Create a folder anywhere you like to save the project as a virtual environment so we can easily install the dependences (libraries and packages). In this example, I'll create a folder with name "my_venvs" and another in it for the actual prject with name "ana5".
+2. Create a folder anywhere you like to save the project as a virtual environment so we can easily install the dependences (libraries and packages). In this example, I'll create a folder with name "my_venvs" and another in it for the actual project with name "ana5".
 3. Press start menu and open "CMD" on Windows
 
 - Copy next commands and Run (don't forget to insert your actual path into "{}" brackets):
