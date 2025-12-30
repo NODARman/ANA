@@ -1,5 +1,5 @@
-# ANA
-Astronomical Numerical Analyzer is a tool for analyzing astronomical data using numerical methods.
+# Astronomical Numerical Analyzer (ANA)
+ANA is a tool for analyzing astronomical data using numerical methods.
 
 # Methods
 1. Lomb-Scargle Periodogram - By Astropy;
