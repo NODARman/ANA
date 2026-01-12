@@ -15,36 +15,44 @@ ANA is a Python-based tool for analyzing astronomical data using numerical metho
 ## Mostly Used Libraries
 Lightkurve, Numpy, Astropy, Scipy, Pandas, Ssqueezepy.
 
-----
+---
+
 
 ## Installation steps:
-1. Install python 3.11.9 (Enable Add to Path during installation)
-2. Create a folder anywhere you like to save the project as a virtual environment so we can easily install the dependences (libraries and packages). In this example, I'll create a folder with name "my_venvs" and another in it for the actual project with name "ana5".
-3. Press start menu and open "CMD" on Windows
+#### Made on Windows 10-11 using Python 3.11.9
+0. Install "VS Code": https://code.visualstudio.com/
+1. Install "python 3.11.9" (Enable "Add python.exe to PATH" during installation!) https://www.python.org/downloads/windows/#:~:text=Python%203.11.9%20%2D%20April%202%2C%202024
 
-- Copy next commands and Run (don't forget to insert your actual path into "{}" brackets):
+2. Create a folder anywhere you like to save the project as a **virtual environment** (you'll need it in the step 6) so we can easily install the dependences (libraries and packages). In this example, I'll create a folder with name "my_venvs" and another in it for the actual project with name "ana5";
 
-- This command will check where Python is installed. You need to copy the path ending with "python.exe". Make sure its in "Python311" folder for Python 3.11.x version:
-4. where python
+3. Press start menu, search for `CMD` and open it on Windows;  
+    
 
-- Next you have to change the example (in the "{}" brackets) to your actual path you coppied before (keep the ' " 's):
-5. "{C:\Users\User_name\AppData\Local\Programs\Python\Python311\python.exe}" -m venv "{path to your virtual environment}\my_venvs\ana5"
+4. `where python` *Copy and paste this commands into CMD and press enter to run it;*  
+    *This command will check where Python is installed.*
+    
+5. You need to copy the path from the output ending with "python.exe". Make sure its in "Python311" folder for Python 3.11.x version:  
+    Example output:  
+    `C:\Users\User_name\AppData\Local\Programs\Python\Python311\python.exe` <--- ***Output. Copy this code for the next step!***  
 
-- Now activate the environment:
-6. "{path to your virtual environment}\my_venvs\ana5\Scripts\activate"
+6. Next you have to change the example code to your actual path you coppied before (4) and run it (keep the ' " ' quotation marks).  
+    ***Don't forget to write your actual path instead of first **"{}"** brackets. In the second brackets, you have to insert the path to your folder you've created in the step (2)***:  
+    Insert here and run: `"{python path}" -m venv "{virtual environment path}\my_venvs\ANA"` This will create a folder with name "ANA" in your folder you created.  
+    Example: `"C:\Users\User_name\AppData\Local\Programs\Python\Python311\python.exe" -m venv "D:\my_codes\my_venvs\ANA"` This will create a folder with name "ANA" in your folder you created.  
 
-- And install the packages:
-7.1. "{path to your virtual environment}\my_venvs\ana5\Scripts\python.exe" -m pip install "lightkurve==2.5.1" "ssqueezepy==0.6.6"
+7. Now activate the environment: `"{virtual environment path}\my_venvs\ANA\Scripts\activate"`
 
-- IF you're using Jupyter notebook, you may also run:
-7.2. "{path to your virtual environment}\my_venvs\ana5\Scripts\python.exe" -m pip install "ipykernel==7.1.0"
+8. Install the packages: `"{virtual environment path}\my_venvs\ana5\Scripts\python.exe" -m pip install "lightkurve==2.5.1" "ssqueezepy==0.6.6" "ipykernel==7.1.0"`
 
-8. Run the code in the editor (I used "VS Code") with interpreter path of your virtual environment or in our case "ana5". The path of the interpreter must be python.exe file placed in the virtual environment "\my_venv\ana5\Scripts\" folder. So select "\my_venv\ana5\Scripts\python.exe" as an interpreter.
+9. Open the code you've downloaded from GitHub with "VS Code". Set the interpreter path using `ctrl + shift + P` select `Python: Select Interpreter` and browse python.exe in the folder "my_venvs" `"{virtual environment path}\my_venvs\ana5\Scripts\python.exe"`
 
-- Additional: You may press "ctrl + shift + p" to select interpreter path.
+10. After these all, VS Code will ask you to install a Jupyter Notebook extention. You may accept it.
 
+### Possible Errors:
+1. If "notebook controller is DISPOSED. View Jupyter log for further details" error occurs, run this command in CMD:  
+    `"{path to your virtual environment}\my_venvs\ana5\Scripts\python.exe" -m pip install --upgrade --force-reinstall --no-cache-dir jupyter`
 
------
+---
 ### Full List of Used Packages and Versions (Just in case ;))
 aiobotocore        == 2.26.0,
 aiohappyeyeballs   == 2.6.1,
