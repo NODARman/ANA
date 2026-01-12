@@ -9,8 +9,8 @@ version 1.0
 3. Autocorrelation - using three Libraries: Numpy, Scipy, Pandas;
 4. Autocorrelation Tempogram - Using Numpy's autocorrelation method;
 5. FFT
-6. Box Least Square (BLS) - From Lightkurve;
-... Wavelet - Using Ssqueezepy - coming soon;
+6. Box Least Square (BLS) - From Lightkurve;  
+... Wavelet - Using Ssqueezepy - coming soon;  
 ... Gaussian Process - coming soon.
 
 ## Mostly Used Libraries
