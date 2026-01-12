@@ -1,4 +1,3 @@
-!!! The Code Will Be Available Soon !!!
 # Astronomical & Numerical Analyzer (ANA)
 ANA is a Python-based tool for analyzing astronomical data using numerical methods, with a focus on PERIOD analysis of Kepler and TESS stars.
 
